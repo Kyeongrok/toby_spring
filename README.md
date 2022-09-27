@@ -1,4 +1,33 @@
-# toby_spring
+# Toby's Spring3
+
+DAOFactory까지 적용된 버전
+
+Spring Framework은 포함 하지 않았습니다.
+
+```java
+public class DaoFactory {
+    private ConnectionMaker connectionMaker(){
+        BinaryConnectionMaker binaryConnectionMaker =  new BinaryConnectionMaker();
+        return binaryConnectionMaker;
+    }
+    public UserDao userDao(){
+        UserDao userDao = new UserDao(connectionMaker());
+        return userDao;
+    }
+}
+```
+
+#### Spring Framework 적용된 버전
+
+https://github.com/Kyeongrok/toby-spring-template-callback
+
+
+
+### 프로젝트 정보
+
+Build : Gradle
+
+DB Driver : MySql
 
 
 ### Connection을 DI받는 Dao
