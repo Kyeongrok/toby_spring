@@ -1,6 +1,6 @@
 # Toby's Spring3
 
-DAOFactory까지 적용된 버전
+DAOFactory까지 적용된 버전 Toby의 스프링3의 ~94p
 
 Spring Framework은 포함 하지 않았습니다.
 
