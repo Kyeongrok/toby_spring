@@ -62,6 +62,7 @@ public class ConnectChecker {
 }
 ```
 
+## DaoFactory
 
 ```java
 public class DaoFactory {
